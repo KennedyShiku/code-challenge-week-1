@@ -15,7 +15,7 @@ function grades(marks){
   } else if(marks < 40){
     return "E" // If marks are less than 40, return 'E'
   } else {
-    return "Not a grade" // If none of the above conditions are met, return 'Not a grade'
+    return "Enter a valid grade" // If none of the above conditions are met, return 'Not a grade'
   }
 }
 
